@@ -1,20 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-01T14:31:37 EET" name="Default suite" finished-at="2024-11-01T14:31:50 EET" duration-ms="13382">
+  <suite started-at="2024-11-04T23:37:52 EET" name="Default suite" finished-at="2024-11-04T23:39:24 EET" duration-ms="91443">
     <groups>
     </groups>
-    <test started-at="2024-11-01T14:31:37 EET" name="Default test" finished-at="2024-11-01T14:31:50 EET" duration-ms="13382">
+    <test started-at="2024-11-04T23:37:52 EET" name="Default test" finished-at="2024-11-04T23:39:24 EET" duration-ms="91443">
       <class name="MyTestCases">
-        <test-method is-config="true" signature="mysetup()[pri:0, instance:MyTestCases@18920cc]" started-at="2024-11-01T14:31:37 EET" name="mysetup" finished-at="2024-11-01T14:31:50 EET" duration-ms="13224" status="PASS">
+        <test-method is-config="true" signature="mysetup()[pri:0, instance:MyTestCases@2002348]" started-at="2024-11-04T23:37:52 EET" name="mysetup" finished-at="2024-11-04T23:38:05 EET" duration-ms="13043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mysetup -->
-        <test-method signature="select()[pri:3, instance:MyTestCases@18920cc]" started-at="2024-11-01T14:31:50 EET" name="select" finished-at="2024-11-01T14:31:50 EET" duration-ms="121" status="PASS">
+        <test-method signature="radioButtons()[pri:1, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:05 EET" name="radioButtons" finished-at="2024-11-04T23:38:06 EET" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButtons -->
+        <test-method signature="dynamicDropDown()[pri:2, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:06 EET" name="dynamicDropDown" finished-at="2024-11-04T23:38:07 EET" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicDropDown -->
+        <test-method signature="select()[pri:3, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:07 EET" name="select" finished-at="2024-11-04T23:38:07 EET" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- select -->
+        <test-method signature="checkBox()[pri:4, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:07 EET" name="checkBox" finished-at="2024-11-04T23:38:07 EET" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method signature="openWindow()[pri:5, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:07 EET" name="openWindow" finished-at="2024-11-04T23:38:15 EET" duration-ms="8421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWindow -->
+        <test-method signature="switchTabs()[pri:6, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:15 EET" name="switchTabs" finished-at="2024-11-04T23:38:25 EET" duration-ms="9837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchTabs -->
+        <test-method signature="switchALERT()[pri:7, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:25 EET" name="switchALERT" finished-at="2024-11-04T23:38:30 EET" duration-ms="5169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchALERT -->
+        <test-method signature="TableExample()[pri:8, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:30 EET" name="TableExample" finished-at="2024-11-04T23:38:34 EET" duration-ms="3178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TableExample -->
+        <test-method signature="elementDisplayed()[pri:9, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:34 EET" name="elementDisplayed" finished-at="2024-11-04T23:38:39 EET" duration-ms="5221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementDisplayed -->
+        <test-method signature="enabled_Disabled()[pri:10, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:39 EET" name="enabled_Disabled" finished-at="2024-11-04T23:38:42 EET" duration-ms="3214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enabled_Disabled -->
+        <test-method signature="mouseHover()[pri:11, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:42 EET" name="mouseHover" finished-at="2024-11-04T23:38:57 EET" duration-ms="14460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHover -->
+        <test-method signature="calendar()[pri:12, instance:MyTestCases@2002348]" started-at="2024-11-04T23:38:57 EET" name="calendar" finished-at="2024-11-04T23:39:14 EET" duration-ms="16994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calendar -->
+        <test-method signature="iFrame()[pri:13, instance:MyTestCases@2002348]" started-at="2024-11-04T23:39:14 EET" name="iFrame" finished-at="2024-11-04T23:39:24 EET" duration-ms="10281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iFrame -->
       </class> <!-- MyTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

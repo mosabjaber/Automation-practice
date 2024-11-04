@@ -5,8 +5,8 @@
     <classes>
       <class name="MyTestCases">
         <methods>
+          <include name="iFrame"/>
           <include name="mysetup"/>
-          <include name="select"/>
         </methods>
       </class> <!-- MyTestCases -->
     </classes>
